@@ -83,5 +83,6 @@
     <None Include="DacpacSQL.publish.xml" />
     <None Include="Snapshots\DacpacSQL_20200303_18-54-37.dacpac" />
     <None Include="Snapshots\DacpacSQL_20200303_19-13-57.dacpac" />
+    <None Include="cmddepoymentscript.sql" />
   </ItemGroup>
 </Project>
