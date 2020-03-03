@@ -142,3 +142,30 @@ if exists (select 1
             and   type = 'U')
    drop table Supplier
 GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[usercountry]
+	-- Add the parameters for the stored procedure here
+ @country varchar(50)
+
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+	select * from customer where country = @country
+ 
+END
+GO
+
+

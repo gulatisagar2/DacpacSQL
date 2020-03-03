@@ -68,12 +68,20 @@
     <Build Include="dbo\Tables\Product.sql" />
     <Build Include="dbo\Tables\Supplier.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+    <Build Include="dbo\usercountry.sql" />
+    <Build Include="dbo\Procedure1.sql" />
+    <Build Include="dbo\Procedure2.sql" />
+    <Build Include="TestData.sql" />
+    <Build Include="dbo\Tables\Function1.sql" />
+    <Build Include="dbo\Function2.sql" />
+    <Build Include="dbo\View1.sql" />
+    <Build Include="dbo\View2.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\DacpacSQL_20200303_18-29-34.dacpac" />
     <None Include="Snapshots\DacpacSQL_20200303_18-33-17.dacpac" />
-  </ItemGroup>
-  <ItemGroup>
-    <PostDeploy Include="SampleData.sql" />
+    <None Include="DacpacSQL.publish.xml" />
+    <None Include="Snapshots\DacpacSQL_20200303_18-54-37.dacpac" />
+    <None Include="Snapshots\DacpacSQL_20200303_19-13-57.dacpac" />
   </ItemGroup>
 </Project>
